@@ -71,26 +71,29 @@ nav a:hover{
     gap: 20px;
     justify-items: center;
 }
-
-#bloco {
-    width: 100%;
-    height: 200px;
+#h1{
+    display: grid;
+    text-align: center;
+    color: white;
+    font-size: 175%;
+    row-gap:10%;
 }
+#pessoa{
+    display: flex;
+    justify-content: space-between;
 
-#azul {
-    background-color: #007BFF;
 }
-
-@media (min-width: 768px) {
-    .grid-container {
-        grid-template-columns: 1fr 1fr;
-    }
+#beatriz{
+    display: flex;
+    width: 300px; 
+    height: 300px; 
+    border-radius: 10px; 
 }
-
-@media (min-width: 1200px) {
-    .bloco {
-        height: 300px;
-    }
+#rian{
+    display: flex;
+    width: 300px; 
+    height: 300px; 
+    border-radius: 10px; 
 }
 
 footer {
